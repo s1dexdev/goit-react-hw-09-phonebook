@@ -1,0 +1,35 @@
+.form {
+  width: 300px;
+  padding: 10px 10px;
+  border: 1px solid black;
+  border-radius: 5px;
+
+  background-color: rgb(217, 229, 240);
+}
+
+.labelName {
+  display: block;
+}
+
+.labelName:first-child {
+  margin-bottom: 15px;
+}
+
+.input {
+  display: block;
+  width: 150px;
+  margin-top: 5px;
+  padding: 3px;
+}
+
+.btn {
+  display: block;
+  margin-top: 20px;
+
+  cursor: pointer;
+}
+
+.btn:hover {
+  color: #ffffff;
+  background-color: rgb(22, 50, 139);
+}
